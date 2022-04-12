@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-let url = `mongodb+srv://fitteduser:fitteduser@cluster0.x9wyz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+//let url = 
 
 const db = mongoose.connect(url,{useNewUrlParser: true, useUnifiedTopology:true})
 
